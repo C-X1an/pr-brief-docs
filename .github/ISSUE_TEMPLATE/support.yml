@@ -1,0 +1,10 @@
+name: Support request
+description: Get help with PR Brief
+title: "[Support] "
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the issue or question
+    validations:
+      required: true
