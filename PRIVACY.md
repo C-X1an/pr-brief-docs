@@ -11,7 +11,9 @@ PR Brief uses pull request titles, descriptions and diff excerpts to generate au
 
 ## Third-party services
 
-PR Brief sends the selected pull request content to OpenAI. Provider retention depends on the API endpoint, account settings and applicable service terms. Do not assume that this app has Zero Data Retention enabled. See [OpenAI's data controls](https://developers.openai.com/api/docs/guides/your-data) for current provider rules.
+PR Brief sends the selected pull request content to OpenAI. Provider retention depends on the API endpoint, account settings and applicable service terms. Do not assume that this app has Zero Data Retention enabled.
+
+OpenAI's API data policy permits model improvement and training when an API account explicitly opts in to data sharing. This app does not guarantee that optional provider data sharing is disabled for its deployed account. See [OpenAI's data controls](https://developers.openai.com/api/docs/guides/your-data) for current retention and data-sharing rules.
 
 GitHub stores posted summaries under its own policies. Credit purchases are processed through Stripe; the app may retain payment event identifiers and credit/account records.
 
