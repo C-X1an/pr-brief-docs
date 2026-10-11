@@ -25,8 +25,10 @@ No configuration required.
 
 ## Security & Privacy
 
-- Repository contents are not stored after summary generation
-- Secret detection runs before AI processing
+- Pull request titles, descriptions and diff excerpts are sent to OpenAI to generate summaries.
+- Generated summaries and operational metadata can be retained and summaries are posted to GitHub. This is not a zero-retention service.
+- Limited pattern checks run before AI processing. They do not guarantee that all secrets or personal data will be detected; do not submit sensitive content.
+- Review the [Privacy Policy](./PRIVACY.md) and the provider's [data controls](https://developers.openai.com/api/docs/guides/your-data) before installing the app.
 - PR Brief uses GitHub App installation permissions only
 
 ---
